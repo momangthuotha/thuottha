@@ -1,6 +1,4 @@
-body{ 
-    background: linear-gradient(to right, dimgray, silver)
-}
+
  {
 margin: 0; 
     padding: 0;
@@ -40,6 +38,42 @@ p{
     text-align: center;
 }
 img{ 
-    width: 100px; 
-    height: 100px;
+    width: 20%;
+    height: 20%;
+}
+.vuonhoa{
+    width: 100vw; 
+    height: 400px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.hoa1{
+    width: 300px; 
+    height: 300px;
+    align-self: left;
+
+
+ 
+    transition: 0.5s;
+}
+.hoa2{
+     width: 300px; 
+    height: 300px;
+    align-self: right;
+
+ 
+
+    transition: 0.5s;
+} 
+body{ 
+    background-image: url( hallucination.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+html{ 
+    background: linear-gradient(to right, dimgray, silver);
 }
