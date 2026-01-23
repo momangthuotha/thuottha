@@ -1,11 +1,14 @@
 
- {
-margin: 0; 
+ html{
+    margin: 0; 
     padding: 0;
 }
 nav{ 
-background-color: rgb(224, 206, 208);
+background-color:burlywood;
 padding: 2rem;
+border-radius: 3rem;
+position: sticky;
+max-width: none;
 }
 nav ul{ 
     margin: 0; 
@@ -16,6 +19,7 @@ nav ul{
 }
 nav ul li{ 
     display: inline; 
+    gap: 10px;
 }
 nav ul li a{ 
     color: darkslategray ; 
@@ -63,18 +67,15 @@ img{
      width: 300px; 
     height: 300px;
     align-self: right;
-
- 
-
     transition: 0.5s;
 } 
 body{ 
     background-image: url( hallucination.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: justify;
   
 }
 html{ 
-    background: linear-gradient(to right, wheat, lightpink)
+    background: linear-gradient(to right, wheat, lightpink);
 }
