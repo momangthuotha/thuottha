@@ -71,9 +71,10 @@ body{
     background-image: url( hallucination.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: justify;
+    background-attachment: fixed;
   
 }
 html{ 
     background: linear-gradient(to right, wheat, lightpink);
+
 }
