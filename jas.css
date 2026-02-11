@@ -7,13 +7,21 @@ nav{
 background-color:cornsilk;
 padding: 2rem;
 border-radius: 3rem;
+overflow-x: auto;
+overflow-y: hidden;
+}
+.nav:active { 
+    cursor: grabbing;
+}
+.nav::-webkit-scrollbar { 
+    display:none; 
 }
 nav ul{ 
     margin: 0; 
     padding: 0;
     display: flex; 
     justify-content: space-around;
-    font-size: 45px;
+    font-size: 50px;
 }
 nav ul li{ 
     display: inline; 
@@ -22,7 +30,7 @@ nav ul li{
 nav ul li a{ 
     color: darkslategray ; 
     text-decoration: none;
-    padding: 1rem 2rem; 
+    padding: 0.5rem 3rem; 
     display: block;    
 }
 nav ul li a:hover{ 
@@ -72,6 +80,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
   
 }
 html{ 
